@@ -1,0 +1,17 @@
+body {font-size: 28px; font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 231, 240)}
+
+li {font-size: 28px}
+
+h1 {font-size: 50px; 
+  text-align: center}
+
+h2 {font-size: 45px}
+
+#border {border-style: none;
+       padding: 10px;
+       background-color: white}
+
+#heading {border-left: 8px;
+           border-left-style: solid;
+           border-color: red}

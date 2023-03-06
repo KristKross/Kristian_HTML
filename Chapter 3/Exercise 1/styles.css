@@ -1,0 +1,9 @@
+img {object-fit: cover;
+     width: 490px;
+     height: 490px;}
+
+.sepia {filter: sepia(100%)}
+
+.contrast {filter: contrast(180%)}
+
+.grayscale {filter: grayscale(100%)}
