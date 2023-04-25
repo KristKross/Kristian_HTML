@@ -1,0 +1,39 @@
+br {
+    user-select: none;
+}
+
+.body {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 260px;
+    height: 30px;
+    padding: 20px;
+    font-family: serif;
+    font-size: 15px;
+}
+
+.output {
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 50px;
+    width: 260px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+button {
+    position: relative;
+    left: 130px;
+    user-select: none;
+}
