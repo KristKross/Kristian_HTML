@@ -3,8 +3,6 @@ let i = 0;
 var page1 = document.getElementById("page1")
 var page2 = document.getElementById("page2")
 var page3 = document.getElementById("page3")
-var page4 = document.getElementById("page4")
-var page5 = document.getElementById("page5")
 var next = document.getElementById("next")
 var last = document.getElementById("last")
 
@@ -20,18 +18,6 @@ function nextPage() {
     else if (i == 1) {
         page2.style.display = "none";
         page3.style.display = "block";
-        i++
-    }
-
-    else if (i == 2) {
-        page3.style.display = "none";
-        page4.style.display = "block";
-        i++
-    }
-
-    else if (i == 3) {
-        page4.style.display = "none";
-        page5.style.display = "block";
         next.style.display = "none"
         i++
     }
@@ -50,18 +36,6 @@ function lastPage() {
     else if (i == 2) {
         page2.style.display = "block";
         page3.style.display = "none";
-        i--
-    }
-
-    else if (i == 3) {
-        page3.style.display = "block";
-        page4.style.display = "none";
-        i--
-    }
-
-    else if (i == 4) {
-        page4.style.display = "block";
-        page5.style.display = "none";
         next.style.display = "block"
         i--
     }
@@ -120,5 +94,65 @@ function sound8(){
 
 function sound9(){
     var snd = new Audio('Hello Partridge.mp3')
+    snd.play()
+}
+
+function sound10(){
+    var snd = new Audio('cashback.mp3')
+    snd.play()
+}
+
+function sound11(){
+    var snd = new Audio('forget-it.mp3')
+    snd.play()
+}
+
+function sound12(){
+    var snd = new Audio('afraid-so.mp3')
+    snd.play()
+}
+
+function sound13(){
+    var snd = new Audio('third-time.mp3')
+    snd.play()
+}
+
+function sound14(){
+    var snd = new Audio('why.mp3')
+    snd.play()
+}
+
+function sound15(){
+    var snd = new Audio('no.mp3')
+    snd.play()
+}
+
+function sound16(){
+    var snd = new Audio('first-class.mp3')
+    snd.play()
+}
+
+function sound17(){
+    var snd = new Audio('aboot.mp3')
+    snd.play()
+}
+
+function sound18(){
+    var snd = new Audio('bugger.mp3')
+    snd.play()
+}
+
+function sound19(){
+    var snd = new Audio('do-you-like-owls.mp3')
+    snd.play()
+}
+
+function sound20(){
+    var snd = new Audio('nirvana.mp3')
+    snd.play()
+}
+
+function sound21(){
+    var snd = new Audio('ok.mp3')
     snd.play()
 }

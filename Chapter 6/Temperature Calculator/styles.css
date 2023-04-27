@@ -2,6 +2,13 @@ br {
     user-select: none;
 }
 
+header {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
 .body {
     width: 300px;
     height: 300px;
@@ -12,7 +19,7 @@ br {
     margin-right: auto;
 }
 
-input {
+textarea {
     border: 1px solid gray;
     border-radius: 2px;
     width: 260px;
@@ -20,6 +27,7 @@ input {
     padding: 20px;
     font-family: serif;
     font-size: 15px;
+    resize: none;
 }
 
 .output {
