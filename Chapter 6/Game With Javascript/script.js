@@ -1,8 +1,11 @@
 var dino = document.getElementById("dino");
 var rock = document.getElementById("rock");
-var counter = 0;
-var highscore = 0;
-var previousHighscore = 0;
+let score = 0;
+let highscore = localStorage.getItem('highscore') || 0;
+let scoreElem = document.getElementById('score');
+let highscoreElem = document.getElementById('highscore');
+
+
 
 function jump() {
     dino.classList.add("animate")
@@ -10,6 +13,8 @@ function jump() {
         dino.classList.remove("animate");
     }, 500);
 }
+
+
 
 function handleKeyDown(event) {
     if (event.code === 'Space') {
@@ -34,15 +39,14 @@ function start() {
         let rockTop = parseInt(window.getComputedStyle(rock).getPropertyValue("left"));
 
         if (rockTop < 65 && rockTop > -25 && dinoTop >= 180) {
+
             rock.style.animation = "none";
 
-            highscore = counter;
-
-            if(highscore > previousHighscore) {
-                document.getElementById("highscoreSpan").innerHTML = counter;
-            }
-            else {
-                document.getElementById("highscoreSpan").innerHTML = previousHighscore;
+            scoreElem.textContent = score;
+			if (score > highscore) {
+				highscore = score;
+				highscoreElem.textContent = highscore;
+				localStorage.setItem('highscore', highscore);
             }
 
             rock.style.animation = "blue 2s infinite linear";
@@ -50,19 +54,15 @@ function start() {
             game.style.display = "none"
             gameover.style.display = "block"
 
-            counter = 0;
-
+            score = 0;
             clearInterval(check)
         } 
         
         else {
-            counter++;
-            document.getElementById("scoreSpan").innerHTML = counter;
-            document.getElementById("gamescoreSpan").innerHTML = counter;
+            score++;
+            document.getElementById("score").innerHTML = score;
+            document.getElementById("gamescore").innerHTML = score;
         }
-
-    previousHighscore = highscore;
-
+    highscoreElem.textContent = highscore;
     }, 10);
 }
-
