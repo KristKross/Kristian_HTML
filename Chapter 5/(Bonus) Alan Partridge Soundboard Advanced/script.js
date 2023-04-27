@@ -53,106 +53,106 @@ function textToAudio() {
 }
 
 function sound1(){
-    var snd = new Audio('Ah-Ha.mp3')
+    var snd = new Audio('sounds/Ah-Ha.mp3')
     snd.play()
 }
 
 function sound2(){
-    var snd = new Audio('Dan.mp3')
+    var snd = new Audio('sounds/Dan.mp3')
     snd.play()
 }
 
 function sound3(){
-    var snd = new Audio('Back Of The Net.mp3')
+    var snd = new Audio('sounds/Back Of The Net.mp3')
     snd.play()
 }
 
 function sound4(){
-    var snd = new Audio('Bang Out Of Order.mp3')
+    var snd = new Audio('sounds/Bang Out Of Order.mp3')
     snd.play()
 }
 
 function sound5(){
-    var snd = new Audio('Jurassic Park.mp3')
+    var snd = new Audio('sounds/Jurassic Park.mp3')
     snd.play()
 }
 
 function sound6(){
-    var snd = new Audio('Smell My Cheese.mp3')
+    var snd = new Audio('sounds/Smell My Cheese.mp3')
     snd.play()
 }
 
 function sound7(){
-    var snd = new Audio('Goal.mp3')
+    var snd = new Audio('sounds/Goal.mp3')
     snd.play()
 }
 
 function sound8(){
-    var snd = new Audio('Kiss My Face.mp3')
+    var snd = new Audio('sounds/Kiss My Face.mp3')
     snd.play()
 }
 
 function sound9(){
-    var snd = new Audio('Hello Partridge.mp3')
+    var snd = new Audio('sounds/Hello Partridge.mp3')
     snd.play()
 }
 
 function sound10(){
-    var snd = new Audio('cashback.mp3')
+    var snd = new Audio('sounds/cashback.mp3')
     snd.play()
 }
 
 function sound11(){
-    var snd = new Audio('forget-it.mp3')
+    var snd = new Audio('sounds/forget-it.mp3')
     snd.play()
 }
 
 function sound12(){
-    var snd = new Audio('afraid-so.mp3')
+    var snd = new Audio('sounds/afraid-so.mp3')
     snd.play()
 }
 
 function sound13(){
-    var snd = new Audio('third-time.mp3')
+    var snd = new Audio('sounds/third-time.mp3')
     snd.play()
 }
 
 function sound14(){
-    var snd = new Audio('why.mp3')
+    var snd = new Audio('sounds/why.mp3')
     snd.play()
 }
 
 function sound15(){
-    var snd = new Audio('no.mp3')
+    var snd = new Audio('sounds/no.mp3')
     snd.play()
 }
 
 function sound16(){
-    var snd = new Audio('first-class.mp3')
+    var snd = new Audio('sounds/first-class.mp3')
     snd.play()
 }
 
 function sound17(){
-    var snd = new Audio('aboot.mp3')
+    var snd = new Audio('sounds/aboot.mp3')
     snd.play()
 }
 
 function sound18(){
-    var snd = new Audio('bugger.mp3')
+    var snd = new Audio('sounds/bugger.mp3')
     snd.play()
 }
 
 function sound19(){
-    var snd = new Audio('do-you-like-owls.mp3')
+    var snd = new Audio('sounds/do-you-like-owls.mp3')
     snd.play()
 }
 
 function sound20(){
-    var snd = new Audio('nirvana.mp3')
+    var snd = new Audio('sounds/nirvana.mp3')
     snd.play()
 }
 
 function sound21(){
-    var snd = new Audio('ok.mp3')
+    var snd = new Audio('sounds/ok.mp3')
     snd.play()
 }

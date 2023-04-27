@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+body {
+    background-color: brown;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    font-weight: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    color: white;
+    font-weight: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button.start {
+    margin: auto;
+    background-color: white;
+    font-size: 40px;
+    padding: 20px 50px 20px 50px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+button.again {
+    margin: auto;
+    background-color: white;
+    font-size: 40px;
+    padding: 20px 50px 20px 50px;
+    position: absolute;
+    top: 600px;
+    left: 830px;
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.bg {
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.sun {
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+
+.floor {
+    width: 500px;
+    height: 220px;
+    margin: auto;
+    top: 196px;
+    position: relative;
+    background-color: beige;
+}
+
+.box {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+#dino {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 90px;
+    top: 200px;
+}
+
+#rock {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    animation: blue 2s infinite linear;
+}
+
+#game {
+    display: none;
+}
+
+#gameoverScreen {
+    display: none;
+}
+
+
+@keyframes blue {
+    0% {
+        left: 500px;
+    }
+
+    100% {
+        left: -200px;
+    }
+    
+}
+
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    10% {
+        top: 130px;
+    }
+
+    30% {
+        top: 110px;
+    }
+
+    40% {
+        top: 100px;
+    }
+
+    60% {
+        top: 100px;
+    }
+
+    70% {
+        top: 110px;
+    }
+
+    90% {
+        top: 130px}
+
+    100% {
+        top: 150px;
+    }
+}
+
+.animate {
+    animation: jump 0.5s linear;
+}

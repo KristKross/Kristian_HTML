@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="menuScreen">
+    <h1>Bronto Run</h1>
+    <div class="box">
+        <p>You are a brontosaurus living in the Jurassic Period. You are on a mission to find food, but rocks are blocking your path. Using your innate jumping skills, you can bypass any obstacle in your way.</p>
+        <br> <br>
+        <p>By pressing the <b>spacebar</b>, you can jump out of any situation. Use this to jump from any obstacle in your path; everyone knows brontosaurs can jump really high!</p>
+        <button class="start" type="button" onclick="start()">Start Game</button>
+    </div>
+</div>
+
+
+<div id="game">
+    <div class="block">
+        <p style="color:white; text-align: center;">Score: <span id="gamescoreSpan"></span></p>
+    </div>
+
+    <div class="bg">
+        <img src="images/sunPixel.png" class="sun"></img>
+        <img src="images/dinoPixel.png" id="dino"></img>
+        <img src="images/rockPixel.png" id="rock"></img>
+        <div class="floor"></div>
+    </div>
+</div>
+
+<div id="gameoverScreen">
+    <h1 style="margin-top: 300px;">GAME OVER</h1>
+    <p style="color:white; text-align: center; font-size: 40px;">Score: <span id="scoreSpan"></span></p>
+    <p style="color:white; text-align: center; padding-left: 60px; font-size: 40px;">Highscore: <span id="highscoreSpan"></span></p>
+    <button class="again" onclick="start()">Start Again</button>
+</div>
+
+<body onkeypress="handleKeyDown(event)"></body>
+
+<script src="script.js"></script>
+</body>
+</html>
