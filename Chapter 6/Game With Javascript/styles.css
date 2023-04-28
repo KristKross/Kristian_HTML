@@ -63,13 +63,15 @@ button.again {
 
 .sun {
     position: relative;
+    width: 120px;
+    height: 120px;
     top: 20px;
-    left: 400px;
+    left: 340px;
 }
 
 .floor {
     width: 500px;
-    height: 220px;
+    height: 180px;
     margin: auto;
     top: 196px;
     position: relative;
@@ -85,7 +87,7 @@ button.again {
     width: 80px;
     height: 80px;
     position: relative;
-    left: 90px;
+    left: 60px;
     top: 200px;
 }
 
@@ -95,7 +97,7 @@ button.again {
     position: relative;
     top: 200px;
     left: 500px;
-    animation: blue 2s infinite linear;
+    animation: rock 2s infinite linear;
 }
 
 #game {
@@ -107,13 +109,13 @@ button.again {
 }
 
 
-@keyframes blue {
+@keyframes rock {
     0% {
         left: 500px;
     }
 
     100% {
-        left: -200px;
+        left: -250px;
     }
     
 }

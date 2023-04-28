@@ -38,7 +38,7 @@ function start() {
         let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
         let rockTop = parseInt(window.getComputedStyle(rock).getPropertyValue("left"));
 
-        if (rockTop < 65 && rockTop > -25 && dinoTop >= 180) {
+        if (rockTop < 35 && rockTop > -55 && dinoTop >= 180) {
 
             rock.style.animation = "none";
 
@@ -49,7 +49,7 @@ function start() {
 				localStorage.setItem('highscore', highscore);
             }
 
-            rock.style.animation = "blue 2s infinite linear";
+            rock.style.animation = "rock 2s infinite linear";
 
             game.style.display = "none"
             gameover.style.display = "block"
