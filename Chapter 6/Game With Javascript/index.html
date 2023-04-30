@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<!--This is the block for the menu screen-->
 <div id="menuScreen">
     <h1>Bronto Run</h1>
     <div class="box">
@@ -19,7 +20,7 @@
     </div>
 </div>
 
-
+<!--This is the block for the game screen-->
 <div id="game">
     <div class="block">
         <p style="color:white; text-align: center;">Score: <span id="gamescore"></span></p>
@@ -33,6 +34,7 @@
     </div>
 </div>
 
+<!--This is the block for the gameover screen-->
 <div id="gameoverScreen">
     <h1 style="margin-top: 300px;">GAME OVER</h1>
     <p style="color:white; text-align: center; font-size: 40px;">Score: <span id="score"></span></p>
@@ -40,6 +42,7 @@
     <button class="again" onclick="start()">Start Again</button>
 </div>
 
+<!--Using javascript to make inputs on the keyboard work-->
 <body onkeypress="handleKeyDown(event)"></body>
 
 <script src="script.js"></script>

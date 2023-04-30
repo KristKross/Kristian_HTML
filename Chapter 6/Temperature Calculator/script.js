@@ -1,4 +1,7 @@
+// Adding a function and linking it with the button
 function convert() {
+
+    // Making variables taken from the HTML document to do the calculations
     var firstOption = document.getElementById("firstOption");
     var value = firstOption.options[firstOption.selectedIndex].value;
 
@@ -9,8 +12,9 @@ function convert() {
     console.log(input);
     var numValue = parseFloat(input);
 
-
+    // Using many if statements for every combination of temperature differences
     if(value === "1" && convertedValue === "1") {
+        // The calculation part of the java script
         var answer = numValue;
         var formatNum = Math.floor(answer * 100)/100;
         document.getElementById("output").innerHTML = formatNum + "°C"

@@ -1,7 +1,9 @@
+/* Using user-select property to disallow breaks to be selected */
 br {
     user-select: none;
 }
 
+/* The header of the HTML document */
 header {
     text-align: center;
     font-size: 40px;
@@ -9,6 +11,7 @@ header {
     color: red;
 }
 
+/* This creates the body of temperature calculator */
 .body {
     width: 300px;
     height: 300px;
@@ -19,6 +22,7 @@ header {
     margin-right: auto;
 }
 
+/* Textarea for the input */
 textarea {
     border: 1px solid gray;
     border-radius: 2px;
@@ -30,6 +34,7 @@ textarea {
     resize: none;
 }
 
+/* Making a clas called output to write the output */
 .output {
     border: 1px solid gray;
     border-radius: 2px;
@@ -38,7 +43,6 @@ textarea {
     padding: 20px;
     font-size: 15px;
 }
-
 
 button {
     position: relative;

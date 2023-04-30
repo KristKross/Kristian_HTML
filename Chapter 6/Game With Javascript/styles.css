@@ -26,6 +26,7 @@ h1 {
     text-align: center;
 }
 
+/* Button to start */
 button.start {
     margin: auto;
     background-color: white;
@@ -36,6 +37,7 @@ button.start {
     left: 240px;
 }
 
+/* Button to try again */
 button.again {
     margin: auto;
     background-color: white;
@@ -53,6 +55,7 @@ button.again {
     margin-top: 140px;
 }
 
+/* The background for the main game */
 .bg {
     width: 500px;
     height: 500px;
@@ -61,6 +64,7 @@ button.again {
     background-color: lightblue;
 }
 
+/* The sun pixel */
 .sun {
     position: relative;
     width: 120px;
@@ -69,6 +73,7 @@ button.again {
     left: 340px;
 }
 
+/* The floor element */
 .floor {
     width: 500px;
     height: 180px;
@@ -83,6 +88,8 @@ button.again {
     height: 500px;
     margin: auto;
 }
+
+/* The main character being controlled */
 #dino {
     width: 80px;
     height: 80px;
@@ -91,6 +98,7 @@ button.again {
     top: 200px;
 }
 
+/* The obstacle */
 #rock {
     width: 40px;
     height: 40px;
@@ -100,15 +108,17 @@ button.again {
     animation: rock 2s infinite linear;
 }
 
+/* The main game display */
 #game {
     display: none;
 }
 
+/* The gameover display */
 #gameoverScreen {
     display: none;
 }
 
-
+/* This is the obstacles animation pattern */
 @keyframes rock {
     0% {
         left: 500px;
@@ -120,7 +130,7 @@ button.again {
     
 }
 
-
+/* This is the bronto's jump animation pattern */
 @keyframes jump {
     0% {
         top: 150px;
@@ -154,6 +164,7 @@ button.again {
     }
 }
 
+/* Works with the jump animation */
 .animate {
     animation: jump 0.5s linear;
 }
